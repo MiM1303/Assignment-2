@@ -24,6 +24,15 @@
     padding: 16px 34px;
   }
 
+  .section-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
   /* HEADER STYLES */
   /* NAV STYLES */
   nav{
@@ -77,7 +86,7 @@
         justify-content: center;
         max-height: 500px;
         margin: 0 0;
-
+        margin-bottom: 100px;
     }
 
     .banner-container h3{
@@ -123,14 +132,68 @@
         font-weight: 400;
     }
 
+    /* MAIN SECTION STYLES */
+
+    /* POPULAR SECTION STYLES */
+
+    .popular-container{
+        display: flex;
+        gap: 53px;
+        margin-bottom: 100px;
+    }
+
+    .popular-container p, ul{
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    
+    .popular-container p{
+        margin-top: 24px;
+    }
+
+    .popular-container p{
+        margin-bottom: 24px;
+    }
+
+    .popular-container ul{
+        padding-left: 16px;
+    }
+
+    .popular-container li{
+        margin-bottom: 16px;
+    }
+
+    .popular-container .btn-primary{
+        margin-top: 8px;
+    }
+
+
+
+    
+
+
+
+
+
+
+
+
   /* MEDIA QUERIES */
 
   /* FOR MOBILE OR SMALL DEVICES */
   @media screen and (max-width: 600px) {
+    
+    /* SHARED STYLES */
     body{
         margin-left: 20px;
         margin-right: 20px;
         margin-top: 19px;
+    }
+
+    .section-title{
+        font-size: 20px;
     }
 
     /* NAV */
@@ -173,6 +236,22 @@
 
     .btn-primary{
         max-width: 255px;
+    }
+
+    /* POPULAR SECTION */
+
+    .popular-container{
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .popular-container li{
+        margin-bottom: 12px;
+    }
+
+    .popular-container .btn-primary{
+        margin-top: 0px;
+        /* margin-bottom: 24px; */
     }
 
 
