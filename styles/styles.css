@@ -78,7 +78,7 @@
     font-weight: 800;
     margin-top: 0px;
 }
-    nav .orange-text{
+    .orange-text{
         color: #FF5400;
     }
 
@@ -241,6 +241,10 @@
 
     /* WHY US SECTION STYLES*/
 
+    .why-us-container{
+        margin-bottom: 100px;
+    }
+
     .why-us-container .section-title, .common-text {
         text-align: center;
     }
@@ -296,6 +300,85 @@
         font-weight: 400;
         line-height: 26px;
      }
+
+     /* NEWSLETTER STYLES */
+
+     .newsletter-container{
+        display: flex;
+        gap: 24px;
+        
+     }
+
+     .newsletter-content{
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+        border: 1px solid #FF5400;
+        padding: 40px;
+     }
+
+     .newsletter-content input{
+        color: rgba(19, 19, 24, 0.30);
+        font-size: 1rem;
+        font-weight: 400;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+        padding: 16px 20px;
+        margin-bottom: 16px;
+        border: 0px;
+     }
+
+     .newsletter-content .card-title{
+        margin-bottom: 16px;
+     }
+     
+     .newsletter-content .card-text{
+        margin-bottom: 24px;
+     }
+
+     .newsletter-content hr{
+        background: rgba(176, 176, 180, 0.971);
+        /* background: rgba(213, 213, 214, 0.682); */
+        width:100%;
+        text-align:left;
+        margin-bottom: 24px;
+     }
+
+     .newsletter-content .btn-primary{
+        margin-top: 8px;
+        max-width: 100%;
+     }
+
+     .newsletter-image .save{
+        border-radius: 16px;
+        background: #FF5400;
+        max-width: 324px;
+        max-height: 120px;
+        padding: 10px 15px;
+        text-align: center;
+        position: absolute;
+        left: 980px;
+        top: 3726px;
+        transform: rotate(-19.628deg);
+     }
+
+     .newsletter-image .save .text1{
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-bottom: 4px;
+     }
+
+     .newsletter-image .save .text2{
+        color: #FFF;
+        font-size: 2rem;
+        font-weight: 800;
+        margin-top: 0px;
+     }
+
+
+
+
 
     
 
@@ -444,7 +527,25 @@
     }
 
     
+    /* NEWSLETTER SECTION STYLES */
 
+    .newsletter-container{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        
+     }
+
+     .newsletter-container .card-title{
+        color: #131318;
+        font-size: 1.25rem;
+        font-weight: 800;
+        margin-bottom: 8px;
+     }
+
+     .newsletter-container .btn-primary{
+        max-width: 100%;
+     }
 
 
 }
