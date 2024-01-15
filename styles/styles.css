@@ -1,0 +1,145 @@
+/* SHARED STYLES */
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+  *{
+    font-family: 'Mulish', sans-serif;
+  }
+
+  body{
+    margin-top: 55px;
+    margin-left: 135px;
+    margin-right: 135px;
+    max-width: 1170px;
+    max-height: 500px;
+  }
+
+  .btn-primary{
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 16px 34px;
+  }
+
+  /* HEADER STYLES */
+  /* NAV STYLES */
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav .menu{
+    display: none;
+  }
+
+  nav img{
+    max-width: 48px;
+    max-height: 56px;
+  }
+
+  .title-container{
+    display: flex;
+    gap: 16px;
+  }
+
+  nav ul{
+    display: flex;
+    gap: 44px;
+  }
+
+  nav li{
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  nav h3{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-top: 0px;
+}
+    nav .orange-text{
+        color: #FF5400;
+    }
+
+    /* BANNER SECTION STYLES */
+
+    .banner-container{
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00)), url('../images/Group\ 13.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 16px;
+        text-align: center;
+        padding: 106px 185px;
+        justify-content: center;
+
+    }
+
+    .banner-container h3{
+        color: #FFF;
+        font-size: 4rem;
+        font-weight: 800;
+        margin-bottom: 24px;
+    }
+
+    .banner-container p{
+        color: #FFF;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 26px; 
+        max-width: 676px;
+        margin: 0px auto;
+        margin-bottom: 48px;
+    }
+
+    .banner-container .options-menu{
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        display: flex;
+        gap: 24px;
+        max-width: 768px;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding: 16px;
+    }
+
+    .banner-container select{
+        padding: 16px;
+        border-radius: 8px;
+        background-color: white;
+        max-width: 174px;
+
+    }
+
+    .banner-container option{
+        color: rgba(19, 19, 24, 0.50);
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+  /* MEDIA QUERIES */
+
+  /* FOR MOBILE OR SMALL DEVICES */
+  @media screen and (max-width: 600px) {
+    body{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 19px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav .menu{
+        display: flex;
+        margin-top: 20px;
+    }
+
+    
+
+
+
+    
+  }
