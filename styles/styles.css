@@ -301,6 +301,18 @@
         line-height: 26px;
      }
 
+     /* PROMOTION SECTION STYLES */
+     /* .promotion-container .common-text{
+        text-align: left;
+     } */
+
+     .promotion-container li{
+        color: #131318;
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 26px; /* 162.5% */
+     }
+
      /* NEWSLETTER STYLES */
 
      .newsletter-container{
